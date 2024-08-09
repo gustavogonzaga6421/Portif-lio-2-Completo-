@@ -1,0 +1,208 @@
+/* Reset global de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo geral do body */
+body {
+    box-sizing: border-box; /* Inclui o padding e border na largura e altura dos elementos */
+    background-color: black; /* Cor de fundo do corpo da página */
+    height: 100vh; /* Altura total da viewport */
+}
+
+/* Estilo para o título principal (h1) */
+h1 {
+    color: #22d4f2; /* Cor do texto do título */
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-family: 'Courier New', Courier, monospace; /* Fonte usada para parágrafos */
+    color: #f6f6f6; /* Cor do texto dos parágrafos */
+}
+
+/* Estilo para strong com classe Destaque */
+Strong.Destaque {
+    color: #f6f6f6; /* Cor do texto em negrito com a classe Destaque */
+}
+
+/* Estilo para strong com classe titulo */
+strong.titulo {
+    color: #f6f6f6; /* Cor do texto em negrito com a classe titulo */
+}
+
+/* Estilo para a seção de apresentação principal */
+.Apresentação {
+    padding: 5% 15%; /* Espaçamento interno da seção */
+    display: flex; /* Usa flexbox para layout */
+    align-items: center; /* Alinha itens verticalmente no centro */
+    justify-content: space-between; /* Distribui espaço igual entre os itens */
+    gap: 5.125rem; /* Espaçamento entre os itens */
+}
+
+/* Estilo para o conteúdo dentro da apresentação */
+.apresentação_conteudo {
+    display: flex; /* Usa flexbox para layout */
+    height: 50%; /* Altura da seção de conteúdo */
+    flex-direction: column; /* Organiza itens em coluna */
+    gap: 2.5rem; /* Espaçamento entre os itens */
+    padding-right: 6.5625rem; /* Espaçamento interno à direita */
+    text-align: justify; /* Justifica o texto */
+}
+
+/* Estilo para a seção de links dentro da apresentação */
+.apresentação_links {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Organiza itens em coluna */
+    justify-content: center; /* Alinha itens verticalmente no centro */
+    align-items: center; /* Alinha itens horizontalmente no centro */
+    gap: 2rem; /* Espaçamento entre os itens */
+}
+
+/* Estilo para o título dentro do conteúdo da apresentação */
+.apresentação_conteudo_titulo {
+    font-size: 2.25rem; /* Tamanho da fonte do título */
+    font-family: 'Krona One', sans-serif; /* Fonte usada para o título */
+}
+
+/* Estilo para o texto dentro do conteúdo da apresentação */
+.apresentação_conteudo_texto {
+    font-size: 1.5rem; /* Tamanho da fonte do texto */
+}
+
+/* Estilo para os links na seção de apresentação */
+.apresentação_links_link {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: center; /* Alinha itens horizontalmente no centro */
+    border-style: solid; /* Tipo de borda sólida */
+    border-color: #f6f6f6; /* Cor da borda */
+    border-width: 0.125rem; /* Largura da borda */
+    width: 23.625rem; /* Largura dos botões de link */
+    text-align: center; /* Alinha o texto no centro */
+    border-radius: 1rem; /* Bordas arredondadas */
+    font-size: 1.5rem; /* Tamanho da fonte dos links */
+    padding: 1.34375rem 0; /* Espaçamento interno vertical */
+    gap: 1rem; /* Espaçamento entre o texto e outros elementos */
+    text-decoration: dashed; /* Decoração do texto em estilo tracejado */
+    color: #f6f6f6; /* Cor do texto */
+    font-family: 'Montserrat',sans-serif; /* Fonte usada para os links */
+}
+
+/* Estilo para o subtítulo de nível 2 */
+h2 {
+    color: white; /* Cor do texto dos subtítulos */
+}
+
+/* Estilo para o segundo título na apresentação */
+.apresentação_conteudo_titulo2 {
+    font-weight: 400; /* Peso da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte do título 2 */
+    font-family: 'Krona One', sans-serif; /* Fonte usada para o título 2 */
+}
+
+/* Estilo para links de apresentação ao passar o cursor */
+.apresentação_links_link:hover {
+    background-color: #22d4f2; /* Cor de fundo ao passar o cursor */
+    border-color: var(--cor-letra); /* Cor da borda ao passar o cursor */
+}
+
+/* Estilo para o título ao passar o cursor */
+strong.titulo:hover {
+    color: #22d4f2; /* Cor do texto do título ao passar o cursor */
+}
+
+/* Estilo para o rodapé do site */
+footer {
+    background-color: #22d4f2; /* Cor de fundo do rodapé */
+    color: #000000; /* Cor do texto do rodapé */
+    font-size: 1.5rem; /* Tamanho da fonte do rodapé */
+    font-family: 'Montserrat', sans-serif; /* Fonte usada para o rodapé */
+    text-align: center; /* Alinha o texto no centro */
+    font-weight: 400; /* Peso da fonte */
+    padding: 1.5rem; /* Espaçamento interno do rodapé */
+}
+
+/* Estilo para o cabeçalho do site */
+header {
+    padding: 2% 0% 0% 15%; /* Espaçamento interno do cabeçalho */
+}
+
+/* Estilo para os links no cabeçalho */
+.head_link {
+    font-family: 'Montserrat', sans-serif; /* Fonte usada para os links do cabeçalho */
+    font-size: 1.5rem; /* Tamanho da fonte dos links */
+    font-weight: 600; /* Peso da fonte dos links */
+    color: #22d4f2; /* Cor do texto dos links */
+    text-decoration: none; /* Remove a decoração do texto (sublinhado) */
+}
+
+/* Estilo para listas */
+ul {
+    color: #f6f6f6; /* Cor do texto das listas */
+    font-family: 'Courier New', Courier, monospace; /* Fonte usada para as listas */
+    font-size: 1.5rem; /* Tamanho da fonte das listas */
+    padding: 2%; /* Espaçamento interno das listas */
+}
+
+/* Estilo para a área do cabeçalho */
+.cabecalho {
+    display: flex; /* Usa flexbox para layout */
+    gap: 5rem; /* Espaçamento entre os itens */
+}
+
+/* Estilo para telas com largura máxima de 1024px */
+@media (max-width: 1024px) {
+    .Apresentação {
+        padding: 5%; /* Ajusta o espaçamento interno */
+        display: flex; /* Usa flexbox para layout */
+        flex-direction: column-reverse; /* Organiza itens em coluna reversa */
+        align-items: center; /* Alinha itens horizontalmente no centro */
+    }
+
+    .photo {
+        transform: scale(0.6); /* Reduz a escala da imagem */
+    }
+
+    .apresentação_links_link {
+        width: 100%; /* Largura total para os botões de link */
+    }
+
+    .apresentação_links {
+        gap: 2rem; /* Ajusta o espaçamento entre os itens */
+    }
+}
+
+/* Estilo para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+    .Apresentação {
+        padding: 5%; /* Ajusta o espaçamento interno */
+        gap: 2rem; /* Espaçamento entre os itens */
+        flex-direction: column-reverse; /* Organiza itens em coluna reversa */
+        align-items: center; /* Alinha itens horizontalmente no centro */
+    }
+
+    .apresentação_conteudo {
+        padding-right: 0; /* Remove o espaçamento interno à direita */
+    }
+
+    .apresentação_links_link {
+        width: 100%; /* Largura total para os botões de link */
+        padding: 1rem; /* Ajusta o espaçamento interno vertical */
+    }
+
+    .cabecalho {
+        flex-direction: column; /* Organiza itens em coluna */
+        gap: 2rem; /* Espaçamento entre os itens */
+        padding: 2rem; /* Ajusta o espaçamento interno */
+    }
+
+    .imagem { /* Estilo padrão da imagem */
+        transition: filter 0.3s ease; /* Suaviza a transição do filtro */
+    }
+    
+    .imagem:hover { /* Estilo quando o mouse passa sobre a imagem */
+        filter: sepia(1) hue-rotate(50deg) brightness(1.2); /* Ajusta o filtro para criar o efeito dourado */
+    }
+    
+}
