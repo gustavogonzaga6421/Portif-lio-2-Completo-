@@ -23,7 +23,7 @@ p {
 }
 
 /* Estilo para strong com classe Destaque */
-Strong.Destaque {
+strong.Destaque {
     color: #f6f6f6; /* Cor do texto em negrito com a classe Destaque */
 }
 
@@ -205,4 +205,35 @@ ul {
         filter: sepia(1) hue-rotate(50deg) brightness(1.2); /* Ajusta o filtro para criar o efeito dourado */
     }
     
+}
+
+/* Estilo para telas maiores que 1366px */
+@media (min-width: 1366px) {
+    .Apresentação {
+        padding: 3% 12%; /* Ajusta o espaçamento para telas maiores */
+    }
+    
+    .apresentação_conteudo_titulo {
+        font-size: 3rem; /* Aumenta o tamanho do título */
+    }
+
+    .apresentação_conteudo_texto {
+        font-size: 1.75rem; /* Aumenta o tamanho do texto */
+    }
+}
+
+/* Estilo para telas maiores que 1920px */
+@media (min-width: 1920px) {
+    .Apresentação {
+        padding: 2% 10%; /* Ajusta o espaçamento para telas grandes */
+        gap: 7rem; /* Aumenta o espaçamento entre os itens */
+    }
+
+    .apresentação_conteudo_titulo {
+        font-size: 3.5rem; /* Aumenta ainda mais o tamanho do título */
+    }
+
+    .apresentação_conteudo_texto {
+        font-size: 2rem; /* Aumenta o tamanho do texto */
+    }
 }
